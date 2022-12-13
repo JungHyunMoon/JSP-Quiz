@@ -61,7 +61,7 @@
 	    list.add(map);
 
 	    int id = Integer.parseInt(request.getParameter("id"));
-	    Map<String, Object> book = null;;
+	    Map<String, Object> book = null;
 	    
 	    for (Map<String, Object> temp : list) {
 			if (temp.get("id").equals(id)) {
