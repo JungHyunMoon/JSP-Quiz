@@ -61,10 +61,18 @@
 	%>
 	
 	<div id="wrap" class="container">
-		<jsp:include page="header.jsp"/>
-		<jsp:include page="menu.jsp"/>
-		<jsp:include page="contents.jsp"/>
-		<jsp:include page="footer.jsp"/>
+		<header class="d-flex align-items-center justify-content-center">
+			<jsp:include page="header.jsp"/>
+		</header>
+		<nav>
+			<jsp:include page="menu.jsp"/>
+		</nav>
+		<section class="contents">
+			<jsp:include page="contents.jsp"/>
+		</section>
+		<footer>
+			<jsp:include page="footer.jsp"/>
+		</footer>
 	</div>
 </body>
 </html>
