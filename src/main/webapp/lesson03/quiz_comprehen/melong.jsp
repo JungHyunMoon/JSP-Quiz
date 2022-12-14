@@ -133,6 +133,11 @@ musicList.add(musicInfo);
 					out.print("<script>");
 					out.print("alert('검색정보 없음.');");
 					out.print("</script>");
+			%>
+			<div class="mt-5 mb-5">
+				<h3 class="text-center">검색정보가 존재하지 않습니다!!</h3>
+			</div>			
+			<%
 				}
 			%>
 		</section>
