@@ -30,7 +30,7 @@ public class MysqlService {
 		try {
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/db_2209?serverTimezone=UTC",
 					"root", "root");
-			Statement stmt = conn.createStatement();
+			statement = conn.createStatement();
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
